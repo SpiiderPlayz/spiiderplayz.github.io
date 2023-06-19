@@ -1,0 +1,84 @@
+html {
+    size: 100%, 100%;
+    margin: 0; 
+}
+body {
+    size: 100%, 100%;
+    margin: 0;
+    background-color: #777777;
+}
+.headerItem {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+.headerItem:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.activeItem {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0080ff;
+    text-decoration: none;
+}
+.activeItem:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 128, 255, 0.5);
+    text-decoration: none;
+}
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: underline;
+}
+.link:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.subscribeButton {
+    color: white;
+    text-decoration: none;
+}
+.subscribeButton:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+.joinButton {
+    color: white;
+    text-decoration: none;
+}
+.joinButton:hover {
+    color: #0050ff;
+    text-decoration: none;
+}
+.gameButton {
+    color: black;
+    text-decoration: none;
+}
+.gameButton:hover {
+    color: #777777;
+    text-decoration: none;
+}
+.gameThumbnail {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.textThumbnail {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: #bbbbbb;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textThumbnailBrowser {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: #00ff00;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
